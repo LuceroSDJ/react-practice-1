@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Austin",
+        "image": "..."
+    },
+    {
+        "id": 2,
+        "name": "San Antonio",
+        "image": "..."
+    },
+    {
+        "id": 3,
+        "name": "Dallas",
+        "image": "..."
+    },
+    {
+        "id": 4,
+        "name": "Houston",
+        "image": "..."
+    },
+    {
+        "id": 5,
+        "name": "Plano",
+        "image": "..."
+    },
+    {
+        "id": 6,
+        "name": "Sugar Land",
+        "image": "..."
+    }
+]
