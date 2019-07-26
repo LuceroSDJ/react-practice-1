@@ -8,7 +8,7 @@
 * Manipulate data from a json file to render cards by passing props.
 * Maintain state.
 
-## This list provides the files created and a description regarding the connection of these files.
+### This list provides the files created and a description regarding the connection between these files.
 
 1. For the purpose of this activity, we will create our own json file at the same level our App.js file is saved. This file is an array of objects [{key: value},{key: value}] ✓
 2. Save images in assets folder [pending... ⁉️ ] 
@@ -17,13 +17,23 @@
 * Title ✓
 * Wrapper ✓
 4. Within each component folder, create an index.js & style.css files. ✓
-5. `Wrapper:`
+5. 
+    `Wrapper:`
     * import React from "react"
-    * create a functional component
+    * create a `stateless` functional component
     * pass in props object as a parameter
     * return an empty div & pass in `props.children` [elaborate on this step ⚠️]
     * export default Wrapper component
+    `Title:`
+    * import React from "react"
+    * create a `stateless` functional component
+    * pass in props object as a parameter
+    * return <h1></h1> & pass in props.children
+    * export default Title component
+    `CityCard:`
+    * 
 
+    `Notes: You can use props.children on components that represent ‘generic boxes’ and that ‘don’t know their children ahead of time’. `
 
 
 
