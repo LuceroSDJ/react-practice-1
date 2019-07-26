@@ -18,20 +18,28 @@
 * Wrapper ✓
 4. Within each component folder, create an index.js & style.css files. ✓
 5. 
+
     `Wrapper:`
     * import React from "react"
     * create a `stateless` functional component
     * pass in props object as a parameter
     * return an empty div & pass in `props.children` [elaborate on this step ⚠️]
     * export default Wrapper component
+
     `Title:`
     * import React from "react"
     * create a `stateless` functional component
     * pass in props object as a parameter
     * return <h1></h1> & pass in props.children
     * export default Title component
+
     `CityCard:`
-    * 
+    * import React from "react"
+    * create a `stateless` functional component
+    * pass in props object as a parameter
+    * add <img> tag: alt & src will be passed in as props at a higher level component
+    * remember our cities.json file? We will make reference to our json file by accessing the props object properties we defined in our json file: `props.name`, `props.image`, `props.id`
+    * export default CityCard component
 
     `Notes: You can use props.children on components that represent ‘generic boxes’ and that ‘don’t know their children ahead of time’. `
 
