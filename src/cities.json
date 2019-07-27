@@ -1,32 +1,32 @@
 [
     {
         "id": 1,
-        "name": "Austin",
-        "image": "..."
+        "cityTX": "Austin",
+        "srcImage": "..."
     },
     {
         "id": 2,
-        "name": "San Antonio",
-        "image": "..."
+        "cityTX": "San Antonio",
+        "srcImage": "..."
     },
     {
         "id": 3,
-        "name": "Dallas",
-        "image": "..."
+        "cityTX": "Dallas",
+        "srcImage": "..."
     },
     {
         "id": 4,
-        "name": "Houston",
-        "image": "..."
+        "cityTX": "Houston",
+        "srcImage": "..."
     },
     {
         "id": 5,
-        "name": "Plano",
-        "image": "..."
+        "cityTX": "Plano",
+        "srcImage": "..."
     },
     {
         "id": 6,
-        "name": "Sugar Land",
-        "image": "..."
+        "cityTX": "Sugar Land",
+        "srcImage": "..."
     }
 ]

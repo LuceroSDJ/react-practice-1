@@ -6,14 +6,17 @@ function CityCard(props) {
             <div>
                 <img alt={props.name} src={props.image} />
             </div>
-        </div>
 
         <div className="cityName">
             <p>
                 <strong>{props.name}</strong>
-                <span>X</span>
+                <span onClick={() => props.removeCard(props.id)}>
+                    X
+                </span>
             </p>
         </div>
+
+    </div>
     )
 }
 

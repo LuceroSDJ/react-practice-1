@@ -17,13 +17,14 @@
 * Title ✓
 * Wrapper ✓
 4. Within each component folder, create an index.js & style.css files. ✓
-5. 
+5. Components Folder
+    `Notes: You can use props.children on components that represent ‘generic boxes’ and that ‘don’t know their children ahead of time’. `
 
     `Wrapper:`
     * import React from "react"
     * create a `stateless` functional component
     * pass in props object as a parameter
-    * return an empty div & pass in `props.children` [elaborate on this step ⚠️]
+    * return an empty div & pass in `props.children`
     * export default Wrapper component
 
     `Title:`
@@ -41,7 +42,12 @@
     * remember our cities.json file? We will make reference to our json file by accessing the props object properties we defined in our json file: `props.name`, `props.image`, `props.id`
     * export default CityCard component
 
-    `Notes: You can use props.children on components that represent ‘generic boxes’ and that ‘don’t know their children ahead of time’. `
+6. App.js file
+    * import React from "react", CityCard, Wrapper, and Title components & cities.json file.
+    * create a class component
+
+7. Create a method to remove the card
+
 
 
 
