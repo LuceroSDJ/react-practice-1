@@ -4,9 +4,9 @@ class CityCard extends React.Component {
     render() {
         return (
             <div className="card">
-                {/* <div> */}
+                <div>
                     <img src={this.props.source} alt={this.props.name} style={{width: "10rem"}} />
-                {/* </div> */}
+                </div>
         
                 <div className="cityName">
                     <p>
