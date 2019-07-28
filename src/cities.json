@@ -2,31 +2,31 @@
     {
         "id": 1,
         "cityTX": "Austin",
-        "srcImage": "..."
+        "src": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607"
     },
     {
         "id": 2,
         "cityTX": "San Antonio",
-        "srcImage": "..."
+        "src": "./public/assets/power.jpg"
     },
     {
         "id": 3,
         "cityTX": "Dallas",
-        "srcImage": "..."
+        "src": "https://www.liveabout.com/thmb/rkFZRh7wSN8BjubVvIkrdsh2tGo=/1367x875/filters:no_upscale():max_bytes(150000):strip_icc()/powerpuff_girls-56a00bc45f9b58eba4aea61d.jpg"
     },
     {
         "id": 4,
         "cityTX": "Houston",
-        "srcImage": "..."
+        "src": "..."
     },
     {
         "id": 5,
         "cityTX": "Plano",
-        "srcImage": "..."
+        "src": "..."
     },
     {
         "id": 6,
         "cityTX": "Sugar Land",
-        "srcImage": "..."
+        "src": ""
     }
 ]

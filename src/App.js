@@ -1,16 +1,19 @@
 import React from 'react';
-import './App.css';
+// import './App.css';
 import CityCard from "./components/CityCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import cities from "./cities.json";
 
 class App extends React.Component {
-  // state will be managed in this file
-  // set this.state.cities to the cities json array of objects
-  state = {
-    cities
-  };
+  constructor(props) {
+    super(props);
+    // state will be managed in this file
+    // set this.state.cities to the cities json array of objects
+    this.state = {
+      cities
+    };
+  }
 
   // add method to remove card on click
   removeCard = id => {
@@ -33,7 +36,7 @@ class App extends React.Component {
             key={city.id}
             id={city.id}
             name={city.cityTX}
-            image={city.srcImage}
+            source={city.src}
             // pass in method to remove city
             removeCard={this.removeCard}
           />
